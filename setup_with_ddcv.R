@@ -4,7 +4,7 @@ pacman::p_load(devtools,
 
 devtools::install_github('mitchelloharawild/icons')
 
-devtools::install_github('nstrayer/datadrivencv')
+#devtools::install_github('nstrayer/datadrivencv') DOESN'T WORK!
 
 use_datadriven_cv(full_name = "Greg Chism")
 
