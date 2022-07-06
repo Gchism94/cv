@@ -6,12 +6,12 @@
 #'
 #' @param data_location Path of the spreadsheets holding all your data. This can
 #'   be either a URL to a google sheet with multiple sheets containing the four
-#'   data types or a path to a folder containing four `.csv`s with the neccesary
+#'   data types or a path to a folder containing four `.csv`s with the necessary
 #'   data.
 #' @param source_location Where is the code to build your CV hosted?
 #' @param pdf_mode Is the output being rendered into a pdf? Aka do links need to
 #'   be stripped?
-#' @param sheet_is_publicly_readable If you're using google sheets for data, is
+#' @param sheet_is_publicly_readable If you're using Google sheets for data, is
 #'   the sheet publicly available? (Makes authorization easier.)
 #' @param cache_data If set to true when data is read in it will be saved to an
 #'   `.rds` object so it doesn't need to be repeatedly pulled from google
@@ -91,7 +91,7 @@ load_data <- function(cv, data_location, sheet_is_publicly_readable){
     if(sheet_is_publicly_readable){
       # This tells google sheets to not try and authenticate. Note that this will only
       # work if your sheet has sharing set to "anyone with link can view"
-      googlesheets4::sheets_deauth()
+      googlesheets4::gs4_deauth()
     } else {
       # My info is in a public sheet so there's no need to do authentication but if you want
       # to use a private sheet, then this is the way you need to do it.
@@ -270,3 +270,4 @@ print_contact_info <- function(cv){
 
   invisible(cv)
 }
+

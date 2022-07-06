@@ -11,7 +11,7 @@
 library(tidyverse)
 source("CV_printing_functions.R")
 cv_data <- create_CV_object(
-  data_location = "https://docs.google.com/spreadsheets/d/14MQICF2F8-vf8CKPF1m4lyGKO6_thG-4aSwat1e2TWc",
+  data_location = "https://docs.google.com/spreadsheets/d/1JeUL4uGOdpvpGP2jDXWQuHL-IpTdDztiWxSP4qavlKE/edit?usp=sharing",
   cache_data = FALSE
 )
 
@@ -19,17 +19,17 @@ readr::write_rds(cv_data, 'cached_positions.rds')
 cache_data <- TRUE
 
 # Knit the HTML version
-rmarkdown::render("cv.rmd",
+rmarkdown::render("cv.Rmd",
                   params = list(pdf_mode = FALSE, cache_data = cache_data),
                   output_file = "index.html")
 
 
 # Knit the PDF version to temporary html location
 tmp_html_cv_loc <- fs::file_temp(ext = ".html")
-rmarkdown::render("cv.rmd",
+rmarkdown::render("cv.Rmd",
                   params = list(pdf_mode = TRUE, cache_data = cache_data),
                   output_file = tmp_html_cv_loc)
 
 # Convert to PDF using Pagedown
 pagedown::chrome_print(input = tmp_html_cv_loc,
-                       output = "strayer_cv.pdf")
+                       output = "gchism_cv.pdf")

@@ -57,7 +57,7 @@ sup {
 
 /* When we have links at bottom in a list make sure they actually are numbered */
 #links li {
-  list-style-type: decimal;
+  list-style-type: circle;
 }
 
 /* Dont put the little fake list point in front of links */
