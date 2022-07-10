@@ -52,7 +52,7 @@ Aside
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at https://main--gchism.netlify.app/uploads/gchism_cv.pdf")
+  cat("View this CV online with links at https://gchism.netlify.app/uploads/gchism_cv.pdf")
 } else {
   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/Gchism94/cv/raw/master/gchism_cv.pdf)")
 }
