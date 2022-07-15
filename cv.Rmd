@@ -81,7 +81,7 @@ Disclaimer {#disclaimer}
 
 Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
 
-The source code is available [on github.com/Gchism94/cv](https://github.com/Gchism94/cv).
+The source code is available on [github.com/Gchism94/cv](https://github.com/Gchism94/cv).
 
 Last updated on `r Sys.Date()`.
 
@@ -142,12 +142,21 @@ CV %<>% print_section('Teaching_and_Mentorship')
 <br>
 <br>
 
-Professional Development {data-icon=user-tie-hair}
+<i class="fas fa-user-tie"></i> Professional Development 
 --------------------------------------------------------------------------------
 
 
 ```{r}
 CV %<>% print_section('Professional_Development')
+```
+
+
+<i class="fab fa-jedi-order"></i> Published Research Compendium  
+--------------------------------------------------------------------------------
+
+
+```{r}
+CV %<>% print_section('Published_Compendium')
 ```
 
 
@@ -165,8 +174,16 @@ CV %<>% print_section('Publications')
 ```
 
 
+Published Datasets {data-icon=database}
+--------------------------------------------------------------------------------
 
-Presentations {data-icon=presentation-screen}
+
+```{r}
+CV %<>% print_section('Published_Datasets')
+```
+
+
+<i class="fas fa-chalkboard"></i> Presentations 
 --------------------------------------------------------------------------------
 
 
