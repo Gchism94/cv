@@ -159,6 +159,11 @@ CV %<>% print_section('Professional_Development')
 CV %<>% print_section('Published_Compendium')
 ```
 
+<!-- These breaks just force a new page so section doesn't get cut off -->
+<br>
+<br>
+<br>
+
 
 Publications {data-icon=book}
 --------------------------------------------------------------------------------
@@ -183,6 +188,15 @@ CV %<>% print_section('Published_Datasets')
 ```
 
 
+Outreach and Service {data-icon=handshake}
+--------------------------------------------------------------------------------
+
+
+```{r}
+CV %<>% print_section('Outreach_Service')
+```
+
+
 <i class="fas fa-chalkboard"></i> Presentations 
 --------------------------------------------------------------------------------
 
@@ -193,7 +207,7 @@ CV %<>% print_section('Presentations')
 
 
 
-Grants  {data-icon=money-bill}
+Selected Awards {data-icon=money-bill}
 --------------------------------------------------------------------------------
 
 ```{r}
