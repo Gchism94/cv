@@ -107,7 +107,7 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('Education')
 ```
 
-Related Work Experience {data-icon=suitcase}
+Related Work Experience {data-icon=briefcase}
 --------------------------------------------------------------------------------
 
 ::: aside
@@ -142,7 +142,7 @@ CV %<>% print_section('Teaching_and_Mentorship')
 <br>
 <br>
 
-<i class="fas fa-user-tie"></i> Professional Development 
+Professional Development {data-icon=user-tie}
 --------------------------------------------------------------------------------
 
 
@@ -197,20 +197,20 @@ CV %<>% print_section('Outreach_Service')
 ```
 
 
-<i class="fas fa-chalkboard"></i> Presentations 
+<i class="fas fa-chalkboard"></i> Invited Talks 
 --------------------------------------------------------------------------------
 
 
 ```{r}
-CV %<>% print_section('Presentations')
+CV %<>% print_section('Invited_Talks')
 ```
-
 
 
 Selected Awards {data-icon=money-bill}
 --------------------------------------------------------------------------------
 
+
 ```{r}
-CV %<>% print_section('Grants')
+CV %<>% print_section('Fellowships_Awards')
 ```
 

@@ -55,6 +55,31 @@ sup {
   margin-left: -3px;
 }
 
+/* Suitcase icon isn't centered by default... */
+.fa-suitcase {
+  margin-left: -0.25px;
+}
+
+/* Chalkboard-teacher icon also ins't centered... */
+.fa-chalkboard-teacher{
+  margin-left: -1.5px;
+}
+
+/* user-tie icon is not centered as well... */
+.fa-solid-fa-user-tie{
+  margin-left = 1px;
+}
+
+/* database icon is not centered as well... */
+.fa-database{
+  margin-left = 1px;
+}
+
+/* handshake icon is not centered as well... */
+.fa-money-bill{
+  margin-left = -3px;
+}
+
 /* When we have links at bottom in a list make sure they actually are numbered */
 #links li {
   list-style-type: circle;
