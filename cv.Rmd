@@ -107,6 +107,14 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('Education')
 ```
 
+Certifications {data-icon=certificate}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('Certifications')
+```
+
+
 Related Work Experience {data-icon=briefcase}
 --------------------------------------------------------------------------------
 
