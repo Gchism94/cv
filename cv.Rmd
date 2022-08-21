@@ -52,7 +52,7 @@ Aside
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at https://gchism.netlify.app/uploads/gchism_cv.pdf")
+  cat("View this CV online with links at https://gregtchism.netlify.app/cv/gchism_cv.pdf/")
 } else {
   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/Gchism94/cv/raw/master/gchism_cv.pdf)")
 }
@@ -70,10 +70,21 @@ CV %>% print_contact_info()
 Relevant Skills {#skills}
 --------------------------------------------------------------------------------
 
-```{r}
-CV %>% print_skill_bars()
-```
+**Programming**
 
+- R/RStudio
+- R Markdown & Quarto
+- Python
+- Shiny
+- Bash
+- HTML & CSS
+- Netlogo/Agent-Based Models
+
+**Data Science**
+
+- Data Visualization
+- Biostatistics
+- Open Science
 
 
 Disclaimer {#disclaimer}
@@ -93,11 +104,8 @@ Main
 Greg Chism {#title}
 --------------------------------------------------------------------------------
 
-```{r}
-# Note the special double pipe so we modify the CV object in place
-CV %<>% print_text_block("intro") 
-```
-
+***
+### Computational and Data Science Educator (Ph.D.)
 
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -118,11 +126,6 @@ CV %<>% print_section('Certifications')
 Related Work Experience {data-icon=briefcase}
 --------------------------------------------------------------------------------
 
-::: aside
-```{r}
-CV %<>% print_text_block('industry_experience_aside')
-```
-:::
 
 ```{r}
 CV %<>% print_section('Relavant_Work_Experience')
@@ -132,23 +135,12 @@ CV %<>% print_section('Relavant_Work_Experience')
 Teaching and Mentorship {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
-::: aside
-```{r}
-CV %<>% print_text_block('teaching_experience_aside')
-```
-:::
 
 ```{r}
 CV %<>% print_section('Teaching_and_Mentorship')
 ```
 
 
-
-
-<!-- These breaks just force a new page so section doesn't get cut off -->
-<br>
-<br>
-<br>
 
 Professional Development {data-icon=user-tie}
 --------------------------------------------------------------------------------
@@ -167,20 +159,11 @@ CV %<>% print_section('Professional_Development')
 CV %<>% print_section('Published_Compendium')
 ```
 
-<!-- These breaks just force a new page so section doesn't get cut off -->
-<br>
-<br>
-<br>
 
 
 Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
-::: aside
-```{r}
-CV %<>% print_text_block('data_science_writing_aside')
-```
-:::
 
 ```{r}
 CV %<>% print_section('Publications')
