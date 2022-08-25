@@ -5,7 +5,7 @@
 # will speed up rendering. It will also make things nicer if you have a
 # non-public sheet and want to take care of the authentication in an interactive
 # mode.
-# To use, simply uncomment the following lines and run them once.
+# To use, simply un-comment the following lines and run them once.
 # If you need to update your data delete the "ddcv_cache.rds" file and re-run
 
 library(tidyverse)
