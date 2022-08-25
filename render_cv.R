@@ -9,6 +9,7 @@
 # If you need to update your data delete the "ddcv_cache.rds" file and re-run
 
 library(tidyverse)
+
 source("CV_printing_functions.R")
 cv_data <- create_CV_object(
   data_location = "https://docs.google.com/spreadsheets/d/1JeUL4uGOdpvpGP2jDXWQuHL-IpTdDztiWxSP4qavlKE/edit?usp=sharing",
