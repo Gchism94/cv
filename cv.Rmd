@@ -70,14 +70,18 @@ CV %>% print_contact_info()
 Relevant Skills {#skills}
 --------------------------------------------------------------------------------
 
-**Programming**
+**Programming/Software**
 
 - R/RStudio
-- R Markdown & Quarto
-- Python
+- R Markdown/Quarto
 - Shiny
+- Python
 - Bash
-- HTML & CSS
+- Docker 
+- CyVerse
+- Jetstream2
+- OpenRefine
+- HTML/CSS/SCSS
 - Netlogo/Agent-Based Models
 
 **Data Science**
@@ -85,14 +89,20 @@ Relevant Skills {#skills}
 - Data Visualization
 - Biostatistics
 - Open Science
+- Computational Thinking
+- Containers
+- Data Ethics
+- Image/Video Analysis
+- Website Design 
 
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
+
 Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
 
-The source code is available on [github.com/Gchism94/cv](https://github.com/Gchism94/cv).
+[Source code](https://github.com/Gchism94/cv).
 
 Last updated on `r Sys.Date()`.
 
@@ -151,6 +161,15 @@ CV %<>% print_section('Professional_Development')
 ```
 
 
+Published Teaching Curriculum {data-icon=book-open} 
+--------------------------------------------------------------------------------
+
+
+```{r}
+CV %<>% print_section('Published_Curriculum')
+```
+
+
 <i class="fab fa-jedi-order"></i> Published Research Compendium  
 --------------------------------------------------------------------------------
 
@@ -161,7 +180,7 @@ CV %<>% print_section('Published_Compendium')
 
 
 
-Publications {data-icon=book}
+Published Research {data-icon=book}
 --------------------------------------------------------------------------------
 
 
@@ -205,3 +224,10 @@ Selected Awards {data-icon=money-bill}
 CV %<>% print_section('Fellowships_Awards')
 ```
 
+
+References 
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('References')
+```
