@@ -74,34 +74,36 @@ Relevant Skills {#skills}
 
 - R/RStudio
 - R Markdown/Quarto
+- Git/GitHub
 - Shiny
 - Python
 - Bash
 - Docker 
 - CyVerse
-- Jetstream2
 - OpenRefine
 - HTML/CSS/SCSS
+- Mathematica
+- Microsoft Office Suite
 - Netlogo/Agent-Based Models
 
 **Data Science**
 
-- Data Visualization
+- Data Visualization 
 - Biostatistics
 - Open Science
 - Computational Thinking
 - Containers
-- Data Ethics
+- Biological Modeling
 - Image/Video Analysis
 - Website Design 
 
 
+ 
+
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-
-Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
-
+Made with [**pagedown**](https://github.com/rstudio/pagedown): 
 [Source code](https://github.com/Gchism94/cv).
 
 Last updated on `r Sys.Date()`.
@@ -115,7 +117,6 @@ Greg Chism {#title}
 --------------------------------------------------------------------------------
 
 ***
-### Computational and Data Science Educator (Ph.D.)
 
 
 Education {data-icon=graduation-cap data-concise=true}
